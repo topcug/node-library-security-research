@@ -9,6 +9,8 @@ The example looks ordinary at first: one Node.js app and one native addon. The w
 You need Docker, Make, curl, and jq.
 
 ```bash
+git clone https://github.com/topcug/node-library-security-research.git
+cd node-library-security-research
 make build
 
 docker run --rm -d --name webhook-archive \
